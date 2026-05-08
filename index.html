@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- CSS STYLE SHEET -->
+        <link rel="stylesheet" href="index.css">
+
+        <!-- GOOGLE FONT -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <section class="selector-container">
+                <input type="color" id="seed-color" class="seed-color">
+                <select 
+                    name="clr-mode-selector" 
+                    class="clr-mode-selector" 
+                    id="clr-mode-selector"
+                >
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                </select>
+                <button id="get-clr-scheme-btn" class="get-clr-scheme-btn">
+                    Get Color Scheme
+                </button>
+            </section>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>

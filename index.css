@@ -1,0 +1,56 @@
+/* =========
+    BODY
+============ */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* =====================
+    SELECTOR SECTION
+========================= */
+.selector-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.15);
+    /* border: 1px solid black; */
+}
+
+.seed-color {
+    width: 15%;
+    max-width: 120px;
+    height: 5vh;
+    border-color: #D1D5DB;
+}
+
+.clr-mode-selector {
+    width: 40%;
+    max-width: 400px;
+    height: 5vh;
+    font-family: inherit;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 0 1em;
+    border: 2px solid #D1D5DB;
+    border-radius: 6px;
+}
+
+.get-clr-scheme-btn {
+    width: 30%;
+    max-width: 200px;
+    height: 5vh;
+    font-family: inherit;
+    font-size: 0.85rem;
+    color: rgb(65, 55, 81);
+    background-color: white;
+    border: 2px solid #D1D5DB;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.get-clr-scheme-btn:hover {
+    color: white;
+    background-color: rgb(65, 55, 81);
+}
