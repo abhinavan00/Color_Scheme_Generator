@@ -54,3 +54,22 @@ body {
     color: white;
     background-color: rgb(65, 55, 81);
 }
+
+/* =======================
+    COLOR SCHEME SECTION
+========================== */
+.clr-scheme-container {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.clr-img {
+    width: 100%;
+    height: 90%;
+}
+
+.hex-value {
+    height: 10%;
+    text-align: center;
+}
